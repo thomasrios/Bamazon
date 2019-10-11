@@ -43,15 +43,14 @@ function questions(res) {
 
     for (var i = 0; i < res.length; i++) {
       if (ans.product == res[i].id) {
-        console.log("You've productSelection", res[i].product_name);
+        console.log("You've selected", res[i].product_name);
         var productSelection = res[i];
         if (productSelection.quantity > ans.units) {
-          console.log("hi")
           productSelection.quantity = productSelection.quantity - ans.units;
           updateItems(productSelection);
         }
         else {
-          console.log("Insufficient quantity, there are only", productSelection.quantity, " remaining");
+          console.log("Sorry fellow Blast Master, there are", productSelection.quantity, productSelection.product_name, "products remaining");
           connection.end();
         }
       }
