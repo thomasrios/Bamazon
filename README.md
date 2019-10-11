@@ -26,8 +26,9 @@ This is an Amazon-like storefront for the hottest new Nerf toy called the "BLAST
 
 ![alt text](Images/Database.png)
 
-5. Created a Node application called `bamazon_DB.js`. Running this application will first display all of the Blast Master items available for sale. This ncludes the ids, names, and prices of Blast Master products for sale.
+5. Created a Node application called `bamazon_DB.js`. Running this application will first display all of the Blast Master items available for sale. This includes the ids, names, and prices of Blast Master products for sale.
 
+![alt text](Images/Product-Listing.gif)
 ![alt text](Images/Full-product-inventory.png)
 
 6. The app then prompts users with two messages.
@@ -46,3 +47,7 @@ This is an Amazon-like storefront for the hottest new Nerf toy called the "BLAST
 8. However, if the store does have enough of the product, it fulfills the customer's order. This updates the SQL database to reflect the remaining quantity.
 
   ![alt text](Images/Product-in-stock.png)
+
+Full Demo 
+![alt text](Images/Inquirer.gif)
+
